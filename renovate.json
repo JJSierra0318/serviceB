@@ -2,16 +2,12 @@
   "extends": [
     "config:recommended"
   ],
-  "baseBranches": ["feature/*"],
   "packageRules": [
     {
       "matchPackageNames": [
         "@jjsierra0318/servicec"
       ],
-      "matchUpdateTypes": [
-        "minor",
-        "patch"
-      ],
+      "matchUpdateTypes": ["development"],
       "automerge": false,
       "branchPrefix": "feature/",
       "prCreation": "immediate"
