@@ -2,7 +2,6 @@
   "extends": [
     "config:recommended"
   ],
-  "baseBranches": ["/^feature\\/.*/", "/^renovate\\/.*/"],
   "packageRules": [
     {
       "matchPackageNames": [
@@ -15,7 +14,9 @@
       "enabled": true,
       "automerge": false,
       "branchPrefix": "feature/",
-      "prCreation": "immediate"
+      "prCreation": "immediate",
+      "respectLatest": false,
+      "ignoreUnstable": false
     }
   ],
   "dependencyDashboard": true,
