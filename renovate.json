@@ -8,6 +8,7 @@
         "@jjsierra0318/servicec"
       ],
       "matchUpdateTypes": ["development"],
+      "enabled": true,
       "automerge": false,
       "branchPrefix": "renovate/",
       "prCreation": "immediate"
