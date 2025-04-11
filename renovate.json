@@ -7,10 +7,6 @@
       "matchPackageNames": [
         "@jjsierra0318/servicec"
       ],
-      "matchUpdateTypes": [
-        "minor",
-        "patch"
-      ],
       "enabled": true,
       "automerge": false,
       "branchPrefix": "feature/",
