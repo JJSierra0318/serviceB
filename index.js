@@ -1,4 +1,4 @@
-import ServiceC from "@pedrovasher/servicec";
+import ServiceC from "@jjsierra0318/servicec";
 import express from 'express';
 
 const app = express();

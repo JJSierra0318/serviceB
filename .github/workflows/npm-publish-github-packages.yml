@@ -24,7 +24,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: echo "@pedrovasher:registry=https://npm.pkg.github.com/" >> ~/.npmrc
+      - run: echo "@jjsierra0318:registry=https://npm.pkg.github.com/" >> ~/.npmrc
       - run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.NPM_TOKEN }}" >> ~/.npmrc
       - run: npm ci
 
