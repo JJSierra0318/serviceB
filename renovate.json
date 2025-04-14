@@ -8,7 +8,7 @@
         "@jjsierra0318/servicec"
       ],
       "enabled": true,
-      "automerge": true,
+      "automerge": false,
       "branchPrefix": "feature/",
       "prCreation": "immediate",
       "respectLatest": true,
