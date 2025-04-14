@@ -11,7 +11,7 @@
       "automerge": false,
       "branchPrefix": "feature/",
       "prCreation": "immediate",
-      "respectLatest": false,
+      "respectLatest": true,
       "ignoreUnstable": false
     }
   ],
