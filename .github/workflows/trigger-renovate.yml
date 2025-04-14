@@ -6,7 +6,7 @@ on:
 
 jobs:
   check-renovate-box:
-    if: github.actor == 'renovate[bot]'
+    if: github.event_name == 'workflow_dispatch' || github.actor == 'renovate[bot]'
     runs-on: ubuntu-latest
     steps:
       - name: Check Renovate Dashboard in another repo
