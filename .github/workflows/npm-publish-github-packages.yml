@@ -6,7 +6,7 @@ on:
   push:
     branches:
       - main
-      - 'feature/**'  # Permite versiones desde ramas feature/*
+      - 'feature/**'
       - 'renovate/**'
   workflow_dispatch:
 
@@ -96,3 +96,8 @@ jobs:
           fi
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+  trigger-renovate:
+    needs: 'publish-gpr'
+    uses: ./.github/workflows/trigger-renovate.yml
+    secrets: inherit
