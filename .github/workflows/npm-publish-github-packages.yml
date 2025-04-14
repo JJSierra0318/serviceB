@@ -7,11 +7,7 @@ on:
     branches:
       - main
       - 'feature/**'  # Permite versiones desde ramas feature/*
-  pull_request:
-    branches:
-      - "main"
-      - "feature/**"
-      - "renovate/**"
+      - 'renovate/**'
   workflow_dispatch:
 
 
