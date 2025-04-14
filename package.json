@@ -19,7 +19,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@jjsierra0318/servicec": "0.0.2",
+    "@jjsierra0318/servicec": "0.0.9-feature-First-Feature-Branch.2",
     "express": "5.0.0"
   }
 }
