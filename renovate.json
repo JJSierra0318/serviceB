@@ -2,9 +2,6 @@
   "extends": [
     "config:recommended"
   ],
-  "ignoreDeps": [
-    "*"
-  ],
   "packageRules": [
     {
       "enabled": true,
@@ -15,6 +12,10 @@
       "matchPackageNames": [
         "/^@jjsierra0318//"
       ]
+    },
+    {
+      "matchPackageNames": ["*"],
+      "enabled": false
     }
   ],
   "dependencyDashboard": true,
