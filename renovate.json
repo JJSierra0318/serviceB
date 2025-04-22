@@ -1,12 +1,9 @@
 {
-  "extends": [
-    "config:recommended"
-  ],
+  "extends": ["config:recommended"],
+  "ignoreDeps": ["*"],
   "packageRules": [
     {
-      "matchPackageNames": [
-        "@jjsierra0318/servicec"
-      ],
+      "matchPackagePatterns": ["^@jjsierra0318/"],
       "enabled": true,
       "automerge": false,
       "branchPrefix": "feature/",
@@ -17,6 +14,4 @@
   "dependencyDashboard": true,
   "dependencyDashboardTitle": "Dependency Dashboard",
   "npmrc": "@jjsierra0318:registry=https://npm.pkg.github.com/"
-  
 }
-
