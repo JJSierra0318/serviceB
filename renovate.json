@@ -14,9 +14,9 @@
       "prCreation": "immediate",
       "followTag": "renovate",
       "matchPackageNames": [
-        "@jjsierra0318/*"
+        "@jjsierra0318**/**"
       ]
-    },
+    }
   ],
   "dependencyDashboard": true,
   "dependencyDashboardTitle": "Dependency Dashboard",
