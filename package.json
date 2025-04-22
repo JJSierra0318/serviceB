@@ -20,6 +20,6 @@
   "license": "ISC",
   "dependencies": {
     "@jjsierra0318/servicec": "0.0.14",
-    "express": "5.0.0"
+    "express": "5.1.0"
   }
 }
