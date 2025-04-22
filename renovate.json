@@ -10,7 +10,7 @@
       "prCreation": "immediate",
       "followTag": "renovate",
       "matchPackageNames": [
-        "/^@jjsierra0318//"
+        "@jjsierra0318/*"
       ]
     },
     {
