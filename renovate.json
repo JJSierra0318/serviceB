@@ -11,8 +11,7 @@
       "automerge": false,
       "branchPrefix": "feature/",
       "prCreation": "immediate",
-      "respectLatest": true,
-      "ignoreUnstable": false
+      "followTag": "renovate"
     }
   ],
   "dependencyDashboard": true,
