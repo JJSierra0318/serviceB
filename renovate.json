@@ -4,6 +4,10 @@
   ],
   "packageRules": [
     {
+      "matchPackageNames": ["*"],
+      "enabled": false
+    },
+    {
       "enabled": true,
       "automerge": false,
       "branchPrefix": "feature/",
@@ -13,10 +17,6 @@
         "@jjsierra0318/*"
       ]
     },
-    {
-      "matchPackageNames": ["*"],
-      "enabled": false
-    }
   ],
   "dependencyDashboard": true,
   "dependencyDashboardTitle": "Dependency Dashboard",
