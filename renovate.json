@@ -1,14 +1,20 @@
 {
-  "extends": ["config:recommended"],
-  "ignoreDeps": ["*"],
+  "extends": [
+    "config:recommended"
+  ],
+  "ignoreDeps": [
+    "*"
+  ],
   "packageRules": [
     {
-      "matchPackagePatterns": ["^@jjsierra0318/"],
       "enabled": true,
       "automerge": false,
       "branchPrefix": "feature/",
       "prCreation": "immediate",
-      "followTag": "renovate"
+      "followTag": "renovate",
+      "matchPackageNames": [
+        "/^@jjsierra0318//"
+      ]
     }
   ],
   "dependencyDashboard": true,
