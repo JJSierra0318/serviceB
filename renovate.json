@@ -4,7 +4,6 @@
   ],
   "packageRules": [
     {
-      "enabled": true,
       "automerge": false,
       "branchPrefix": "feature/",
       "prCreation": "immediate",
