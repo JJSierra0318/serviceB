@@ -4,19 +4,17 @@
   ],
   "packageRules": [
     {
-      "matchPackageNames": ["*"],
-      "enabled": false
-    },
-    {
       "enabled": true,
       "automerge": false,
       "branchPrefix": "feature/",
       "prCreation": "immediate",
       "followTag": "renovate",
       "schedule": ["at any time"],
-      "matchPackageNames": [
-        "@jjsierra0318**/**"
-      ]
+      "matchPackageNames": ["^@jjsierra0318/"]
+    },
+    {
+      "matchPackageNames": ["*"],
+      "enabled": false
     }
   ],
   "dependencyDashboard": true,
