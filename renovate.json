@@ -13,8 +13,8 @@
       "branchPrefix": "feature/",
       "prCreation": "immediate",
       "followTag": "renovate",
-      "schedule": ["every 30 minutes"],
-      "matchPackageNames": ["@jjsierra0318/**"]
+      "schedule": ["at any time"],
+      "matchPackageNames": ["^@jjsierra0318/"]
     }
   ],
   "dependencyDashboard": true,
