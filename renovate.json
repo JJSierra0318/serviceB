@@ -17,7 +17,6 @@
       "matchPackageNames": ["@jjsierra0318/**"]
     }
   ],
-  "autodiscover": true,
   "dependencyDashboard": true,
   "dependencyDashboardTitle": "Dependency Dashboard",
   "npmrc": "@jjsierra0318:registry=https://npm.pkg.github.com/"
