@@ -1,6 +1,7 @@
 module.exports = {
   "repositories": [
     "jjsierra0318/serviceB",
+    "jjsierra0318/serviceA",
   ],
   "hostRules": [
      {
