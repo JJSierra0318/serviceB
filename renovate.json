@@ -14,8 +14,8 @@
       "prCreation": "immediate",
       "followTag": "renovate",
       "schedule": ["at any time"],
-      "matchPackageNames": ["@jjsierra0318/**"]
-    }
+      "matchPackageNames": ["@jjsierra0318/**"],
+    },
   ],
   "repositories": [
     "jjsierra0318/serviceB",
