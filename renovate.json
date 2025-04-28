@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "config:recommended"
+  ],
+  "packageRules": [
+    {
+      "matchPackageNames": ["*"],
+      "enabled": false
+    },
+    {
+      "enabled": true,
+      "automerge": false,
+      "branchPrefix": "feature/",
+      "prCreation": "immediate",
+      "followTag": "renovate",
+      "matchPackageNames": ["@jjsierra0318/**"]
+    }
+  ],
+  "dependencyDashboard": true,
+  "dependencyDashboardTitle": "Dependency Dashboard",
+  "npmrc": "@jjsierra0318:registry=https://npm.pkg.github.com/"
+}
