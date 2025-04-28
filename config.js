@@ -7,7 +7,6 @@ module.exports = {
      {
        "hostType": "npm",
        "matchHost": "npm.pkg.github.com",
-       "username": "npm",
        "token": process.env.RENOVATE_TOKEN,
      },
    ],
