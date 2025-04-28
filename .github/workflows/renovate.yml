@@ -18,4 +18,5 @@ jobs:
           token: ${{ secrets.NPM_TOKEN }}
         env:
           RENOVATE_NPM_NPM_PKG_GITHUB_COM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          RENOVATE_TOKEN: ${{ secrets.NPM_TOKEN }}
           LOG_LEVEL: debug
