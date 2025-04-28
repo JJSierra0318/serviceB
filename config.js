@@ -1,6 +1,7 @@
 module.exports = {
-  "autodiscover": true,
-  "autodiscoverFilter": ["jjsierra0318/service*"],
+  "repositories": [
+    "jjsierra0318/serviceB",
+  ],
   "hostRules": [
      {
        "hostType": "npm",
