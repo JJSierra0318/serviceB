@@ -13,18 +13,7 @@
       "branchPrefix": "feature/",
       "prCreation": "immediate",
       "followTag": "renovate",
-      "schedule": ["at any time"],
       "matchPackageNames": ["@jjsierra0318/**"]
-    }
-  ],
-  "repositories": [
-    "jjsierra0318/serviceB"
-  ],
-  "hostRules": [
-    {
-      "hostType": "npm",
-      "matchHost": "npm.pkg.github.com",
-      "username": "npm"
     }
   ],
   "dependencyDashboard": true,
