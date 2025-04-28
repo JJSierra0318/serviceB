@@ -92,7 +92,7 @@ jobs:
           if [[ "${GITHUB_HEAD_REF}" == renovate/* ]]; then
             npm publish --tag renovate
           else
-            npm publish
+            npm publish --tag renovate
           fi
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
