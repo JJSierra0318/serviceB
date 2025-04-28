@@ -1,6 +1,14 @@
 module.exports = {
   "autodiscover": true,
   "autodiscoverFilter": ["jjsierra0318/service*"],
+  "hostRules": [
+     {
+       "hostType": "npm",
+       "matchHost": "npm.pkg.github.com",
+       "username": "npm",
+       "token": process.env.RENOVATE_TOKEN,
+     },
+   ],
   "prHourlyLimit": 0,
   "dependencyDashboard": true,
   "dependencyDashboardTitle": "Dependency Dashboard",
