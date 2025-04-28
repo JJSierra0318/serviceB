@@ -10,7 +10,7 @@ module.exports = {
       "hostType": "npm",
       "matchHost": "npm.pkg.github.com",
       "username": "npm",
-      "password": process.env.NPM_TOKEN,
+      "token": process.env.NPM_TOKEN,
     },
   ],
 }
