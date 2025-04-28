@@ -1,6 +1,6 @@
 module.exports = {
   "autodiscover": true,
-  "autodiscoverFilter": ["jjsierra0318/*"]
+  "autodiscoverFilter": ["jjsierra0318/*"],
   "prHourlyLimit": 0,
   "dependencyDashboard": true,
   "dependencyDashboardTitle": "Dependency Dashboard",
